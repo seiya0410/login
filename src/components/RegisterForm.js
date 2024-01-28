@@ -11,7 +11,7 @@ function RegisterForm() {
         event.preventDefault();
 
         try {
-            const response = await fetch('https://go.seiyalife.xyz/sign-up', {
+            const response = await fetch('https://back.seiyalife.xyz/sign-up', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
