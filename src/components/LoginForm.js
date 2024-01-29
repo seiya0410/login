@@ -23,8 +23,11 @@ function LoginForm() {
             if (response.ok) {
                 console.log('ログイン成功');
                 // レスポンスに基づく追加の処理をここに記述（例：ユーザーダッシュボードへのリダイレクト）
-               window.location.href = 'https://analytics.seiyalife.xyz';
-              console.log(JSON.stringify(response))
+           //    window.location.href = 'https://analytics.seiyalife.xyz';
+
+
+
+              console.log(response)
             } else {
                 console.log('ログイン失敗');
                 // エラーハンドリングをここに記述
